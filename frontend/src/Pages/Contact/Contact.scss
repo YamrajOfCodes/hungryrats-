@@ -1,0 +1,307 @@
+.contact{
+    height: 70vh;
+    width: 100vw;
+    .container-fluid{
+        height: 100%;
+        width: 100%;
+        .row{
+            display: flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 100%;
+            width: 100%;
+              .col-md-3{
+           
+        }
+        .col-md-9{
+            
+        }
+        }
+       
+    }
+    .right{
+        height: 30vw;
+        width: 30%;
+      
+        form{
+            height: 100%;
+        }
+        h2{
+            margin-bottom: 4vh;
+        }
+        display: flex;
+        flex-direction: column;
+    
+        .input-fields{
+            height: 5vh;
+            display: flex;
+            gap: 8px;
+            margin-bottom: 2vh;
+            justify-content: center;
+            input{
+                width: 60%;
+                height: 90%;
+                border-radius: 10px;
+                outline: none;
+            }
+        }
+        .btn-primary{
+            height:40px ;
+        }
+        .form-floating > .form-control {
+            padding: 1rem .75rem;
+            resize: none;
+          }
+      
+     
+    }
+ 
+}
+@media screen and (max-width:1400px) {
+    .contact{
+    height: 70vh;
+    width: 100vw;
+    .container-fluid{
+        height: 100%;
+        width: 100%;
+        .row{
+            height: 100%;
+            display: flex;
+            justify-content:space-evenly;
+            align-items: center;
+            width: 100%;
+        }
+        .right{
+        height: 100%;
+        width: 40%;
+        form{
+            height: 100%;
+        }
+        h2{
+            margin-bottom: 4vh;
+        }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      
+      
+     
+    }
+       
+    }
+    
+ 
+}
+.contact{
+    .container-fluid{
+        .row{
+            .right{
+                .form-control{
+                  
+                   
+                }
+              
+            }
+        }
+    }
+}
+
+}
+@media screen and (max-width:1100px) {
+    .contact{
+        height: 70vh;
+        width: 100vw;
+        .container-fluid{
+            height: 100%;
+            width: 100%;
+            .row{
+                display: flex;
+                justify-content:flex-end;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+                  .col-sm-3{
+                display: flex;
+                justify-content: center;
+               img{
+                // margin-left: -100px;
+               }
+            }
+            .col-lg-9{
+                width: 100%;
+                
+            }
+            }
+           
+        }
+        .right{
+            height: auto;
+            width: 30%;
+          
+            form{
+                height: 100%;
+                padding: 0px;
+            }
+            h2{
+                margin-bottom: 4vh;
+            }
+            display: flex;
+            flex-direction: column;
+        
+            .input-fields{
+                height: 5vh;
+                display: flex;
+                gap: 8px;
+                margin-bottom: 2vh;
+                justify-content: center;
+                input{
+                    width: 60%;
+                    height: 90%;
+                    border-radius: 10px;
+                    outline: none;
+                }
+            }
+            .btn-primary{
+                height:40px ;
+            }
+          
+         
+        }
+     
+    }
+}
+@media screen and (max-width:1500px) {
+    .contact{
+        height: 70vh;
+        width: 100vw;
+        .container-fluid{
+            height: 100%;
+            width: 100%;
+           
+        }
+        .right{
+            height: auto;
+            width: 30%;
+        }
+    }
+        
+         
+}
+@media screen and (max-width:1100px) {
+    .contact{
+        height: 70vh;
+        width: 100vw;
+        .container-fluid{
+            height: 100%;
+            width: 100%;
+            .row{
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+                  .col-sm-3{
+                display: flex;
+                justify-content: center;
+               img{
+                // margin-left: -100px;
+               }
+            }
+            .col-md-12{
+                width: 100%;
+                background-color: blue;
+            }
+            }
+           
+        }
+        .right{
+            height: auto;
+            width: 30%;
+          
+            form{
+                height: 100%;
+                padding: 0px;
+            }
+            h2{
+                margin-bottom: 4vh;
+            }
+            display: flex;
+            flex-direction: column;
+        
+            .input-fields{
+                height: 5vh;
+                display: flex;
+                gap: 8px;
+                margin-bottom: 2vh;
+                justify-content: center;
+                input{
+                    width: 60%;
+                    height: 90%;
+                    border-radius: 10px;
+                    outline: none;
+                }
+            }
+            .btn-primary{
+                height:40px ;
+            }
+          
+         
+        }
+     
+    }
+}
+@media screen and (max-width:850px) {
+    .contact{
+        height: 75vh;
+        margin-top: 13vh;
+    }
+    .contact .container-fluid{
+        height: 90%;
+    }
+    .contact .container-fluid .right {
+        height: 100%;
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    .contact .container-fluid .row .col-sm-3{
+      display: none;
+    }
+    .contact .container-fluid .row {
+       justify-content: space-evenly;
+    //    margin-left: -30px;
+
+    }
+    
+
+}
+
+    @media screen and (min-width:650px) and (max-width:740px) {
+        .contact{
+            height: 75vh;
+            margin-top: 13vh;
+        }
+        .contact .container-fluid{
+            height: 90%;
+        }
+        .contact .container-fluid .right {
+            height: 100%;
+            width: 95%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+        .contact .container-fluid .row .col-sm-3{
+          display: none;
+        }
+        .contact .container-fluid .row {
+           justify-content: space-evenly;
+           margin-left: -20px;
+    
+        }
+        
+    
+    }
+    
+

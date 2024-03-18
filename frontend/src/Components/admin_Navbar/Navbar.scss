@@ -1,0 +1,41 @@
+.navbarr{
+    height: 10vh;
+    width: 100%;
+    padding: 8px 34px;
+    border: 1px solid #ccc;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    h2{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navbarr{
+        height: 10vh;
+        width: 100%;
+        h2{
+            font-size: 1.4rem;
+        }
+    }
+}
+@media screen and (max-width:650px) {
+    .navbarr{
+        height: 10vh;
+        width: 100%;
+        h2{
+            font-size: 1.3rem;
+        }
+    }
+}
+@media screen and (max-width:450px) {
+    .navbarr{
+        height: 8vh;
+        width: 100%;
+        h2{
+            font-size: 1rem;
+        }
+        .admin{
+            font-size: 0.9rem;
+        }
+    }
+}

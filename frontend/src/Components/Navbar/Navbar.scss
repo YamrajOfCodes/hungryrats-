@@ -1,0 +1,242 @@
+nav{
+    background-color: #105DF0;
+    display: flex;
+    align-items: center;
+    
+
+    .navbar-brand{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .navbar-toggler-icon{
+        color: white;
+    }
+    .navbar-toggler:focus{
+       box-shadow: none;
+    }
+
+    .navbar-nav{
+        display: flex;
+        align-items: center;
+       
+    .nav-item{
+        margin-left: 24px;
+
+        a{
+            font-size: 1rem;
+        }
+        .cart{
+            // position: relative;
+        }
+    }
+   
+
+    .cta-login{
+        background-color: rgb(19, 19, 19);
+        height: 45px;
+        width: 140px;
+        border-radius:28px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        a{
+            font-weight: bold;
+        }
+    }
+    .cta-login:active{
+        background-color: black;
+    }
+    .cart img{
+        width: 200px;
+    }
+
+    }
+    .quantity{
+        font-size: 1.2rem;
+        background-color: white;
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: relative;
+        right: 38px;
+        margin-bottom: 28px;
+      
+    }
+}
+@media screen and (max-width:350px) {
+    nav{
+        .navbar-brand{
+            font-size: 0.5rem;
+        }
+
+        .navbar-toggler{
+            display: flex;
+            font-size: 0.9rem;
+            justify-content: end;
+            align-items: center;
+        
+        
+    }
+    }
+
+  
+   
+}
+
+
+@media screen and (max-width:550px) {
+    nav{
+        background-color: #105DF0;
+        display: flex;
+        align-items: center;
+    
+        .navbar-brand{
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+      
+        
+}
+nav .navbar-nav .nav-item{
+    margin-top: 10px;
+   .nav-link{
+    font-size: 1rem;
+   }
+}
+   
+}
+@media screen and (max-width:650px) {
+ 
+ nav{
+    .navbar-brand{
+        font-size: 1.2rem;
+    }
+ }
+        
+    .navbar-toggler{
+        display: flex;
+        font-size: 0.9rem;
+        justify-content: end;
+        align-items: center;
+    
+    
+}
+}
+@media screen and (max-width:800px) {
+    
+    nav{
+        .navbar-brand{
+            font-size: 1.4rem;
+        }
+    }
+    .navbar-toggler{
+        font-size: 1rem;
+        // background-color: white;
+        border: none;
+        outline: none;
+        display: flex;
+    }
+   
+}
+@media screen and (max-width:1000px) {
+    nav{
+        background-color: #105DF0;
+        display: flex;
+        align-items: center;
+        .navbar-brand{
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+    
+        .navbar-nav{
+            display: flex;
+            align-items: center;
+           
+        .nav-item{
+            margin-left: 24px;
+    
+            a{
+                font-size: 1rem;
+            }
+            .quantity{
+                right: -20px;
+                bottom: 58px;
+            }
+            
+            
+            
+        }
+    
+        .cta-login{
+            background-color: rgb(19, 19, 19);
+            height: 35px;
+            width: 110px;
+            border-radius:28px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+    
+            a{
+                font-weight: bold;
+            }
+        }
+        .cta-login:active{
+            background-color: black;
+        }
+    
+        }
+    }
+
+   
+}
+@media screen and (max-width:450px) {
+    nav{
+        padding-left: 4px;
+        background-color: #105DF0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+        .navbar-brand{
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        .navbar-toggler{
+            display: flex;
+            font-size: 0.9rem;
+            justify-content: end;
+            align-items: center;
+           width: auto;
+        
+    }
+    
+        
+        
+        
+    }
+   
+nav .navbar-nav .nav-item{
+    margin-top: 14px;
+   .nav-link{
+    font-size: 0.9rem;
+   }
+}
+nav .quantity {
+    font-size: 1.2rem;
+    background-color: white;
+    width: 21px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 58px;
+}
+}

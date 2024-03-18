@@ -1,0 +1,109 @@
+.footer{
+    height: auto;
+    width: 100vw;
+    padding: 50px 20px 0px 20px;
+    background-color: #292929;
+    .container{
+        .col-4{
+            margin-bottom: 18px;
+        }
+       
+    }
+    .col-12{
+        width: 105%;
+        height: 4vh;
+        background-color: #105DF0;
+        margin-left: -10px;
+    }
+}
+@media screen and (max-width:1200px) {
+    .footer{
+        padding-top: 40px;
+        padding-left: 80px;
+        .container{
+            .col-4{
+                p{
+                    font-size: 1rem;
+                }
+            }
+           
+        }
+        .col-12{
+            width: 115%;
+            margin-left: -70px;
+        }
+    }
+}
+@media screen and (max-width:750px) {
+    .footer{
+        padding-top: 40px;
+        .container{
+            .col-4{
+                p{
+                    font-size: 0.9rem;
+                }
+            }
+           
+        }
+        .col-12{
+            width: 115%;
+            margin-left: -85px;
+        }
+    }
+}
+@media screen and (max-width:550px) {
+    .footer{
+        padding-top: 30px;
+        .container{
+            .col-4{
+                p{
+                    font-size: 0.75rem;
+                }
+            }
+           
+        }
+        .col-12{
+            width: 115%;
+            margin-left: -55px;
+        }
+    }
+}
+@media screen and (max-width:550px) {
+    .footer{
+        padding-top: 30px;
+        padding-left: 30px;
+        .container{
+            .col-4{
+                p{
+                    font-size: 0.7rem;
+                }
+            }
+           
+        }
+    }
+    .footer .col-12 {
+        width: 135%;
+        margin-left: -75px;
+    }
+}
+@media screen and (max-width:450px) {
+    .footer{
+        padding-top: 30px;
+        padding-left: 30px;
+        .container{
+            .col-4{
+                p{
+                    font-size: 0.6rem;
+                }
+            }
+           
+        }
+    }
+    .footer .col-12 {
+        width: 135%;
+        margin-left: -75px;
+        p{
+            font-size: 0.8rem;
+        }
+    }
+}

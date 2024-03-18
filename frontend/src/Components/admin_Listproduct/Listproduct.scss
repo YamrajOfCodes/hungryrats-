@@ -1,0 +1,25 @@
+.listproduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 740px;
+    padding: 10px 50px;
+    margin: 30px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid black;
+    .elements{
+        grid-template-columns: 1fr 3fr 1fr 1fr;
+        display: grid;
+        gap: 10px;
+        width: 100%;
+        padding: 20px 0px;
+        font-size: 15px;
+        font-weight: 600;
+        border: 1px solid blue;
+        .img{
+            width: 400px;
+        }
+    }
+}

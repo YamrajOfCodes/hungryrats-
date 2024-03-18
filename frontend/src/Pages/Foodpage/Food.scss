@@ -1,0 +1,56 @@
+.food{
+    height: 60vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  .foodItem{
+  display: flex;
+  height: 70%;
+  width: 100%;
+  gap: 64px;
+  justify-content: center;
+  flex-wrap: wrap;
+  img{
+    height: 100%;
+    width: 100%;
+  }
+  .item{
+    background-color: blue;
+  }
+  }
+}
+
+@media (max-width:1200px){
+  .food{
+    height: 60vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  .foodItem{
+  display: flex;
+  height: auto;
+  width: 100%;
+  gap: 64px;
+  justify-content: center;
+  flex-wrap: wrap;
+  img{
+    height: 100%;
+    width: 100%;
+  }
+  }
+}
+}
+@media (max-width:850px){
+  .food{
+    height: 85vh;
+  width: 100vw;
+}
+}
+@media (max-width:550px){
+  .food{
+    margin-top: 2vh;
+    overflow-y: scroll;
+    height:100vh;
+  width: 100vw;
+}
+}
