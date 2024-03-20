@@ -30,7 +30,7 @@ function Addproduct() {
     formdata.append('product',image)
 
 
-    await fetch('http://localhost:4000/upload',{
+    await fetch('https://new-back-3.onrender.com/upload',{
       method:'POST',
       headers:{
         Accept:'application/json',
@@ -42,7 +42,7 @@ function Addproduct() {
       product.image=responsedata.image_url;
       console.log(product);
 
-      await fetch("/addproduct",{
+      await fetch("https://new-back-3.onrender.com/addproduct",{
         method:"POST",
         headers:{
             Accept:'application/json',
