@@ -18,7 +18,7 @@ function Listproduct() {
 
  const removeproduct=async(id)=>{
 
-   await fetch('removeproduct',{
+   await fetch('http://localhost:4000/removeproduct',{
     method:'POST',
     headers:{
       Accpt:'application/json',

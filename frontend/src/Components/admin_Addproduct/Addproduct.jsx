@@ -30,7 +30,7 @@ function Addproduct() {
     formdata.append('product',image)
 
 
-    await fetch('/upload',{
+    await fetch('http://localhost:4000/upload',{
       method:'POST',
       headers:{
         Accept:'application/json',
